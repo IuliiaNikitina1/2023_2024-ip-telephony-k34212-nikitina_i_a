@@ -81,7 +81,16 @@ PC6: 192.168.1.8/24
 
   <img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%202-5.png" width = "500" height = "300" alt = "switch-config-3"/>
 
-  
+  Для проверки исправности сети был произведен звонок с IP-телефона №1 (54001) на IP-телефон №2 (54002):
+
+  <img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%202-6.png" width = "500" height = "300" alt = "call-1"/>
+
+  <img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%202-7.png" width = "500" height = "300" alt = "call-2"/>
+
+  После нажатия на сам телефон на устройстве IP Phone 2 на его экране появилось сообщение об установленном с 54001 соединении. Это свидетельствует о том, что настройка была выполнена правильно.
+
+  <img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%202-8.png" width = "500" height = "300" alt = "call-3"/>
+
 
 #### 3. Вывод:
 
