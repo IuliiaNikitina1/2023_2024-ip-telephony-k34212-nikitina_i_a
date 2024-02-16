@@ -75,7 +75,7 @@ PC6: 192.168.1.8/24
 
   Вслед за произведенными конфигурациями на маршрутизаторе, на коммутаторе были выполнены команды, назначающие сети VLAN 1 диапазоны портов fa0/1-fa0/5 и переводящие их в режиме access: 
 
-  <img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%202-4.png" width = "500" height = "300" alt = "router-config"/>
+  <img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%202-4.png" width = "400" height = "300" alt = "router-config"/>
 
   Наконец, на маршрутизаторе CMERouter были созданы телефонные линии и заданы номера IP-телефонов:
 
