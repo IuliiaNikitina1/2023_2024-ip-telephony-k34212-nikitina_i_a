@@ -30,7 +30,7 @@ Date of finished:
   В первой части лабораторной работы в среде Cisco Packet Tracer был создан новый проект и собрана схема соединения, состоящая из 7 персональных компьютеров и четырех коммутаторов.
   Полученная схема представлена на рисунке ниже:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%201-1.png" width = "600" height = "500" alt = "scheme-part-1"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%201-1.png" width = "500" height = "300" alt = "scheme-part-1"/>
 
   Каждому компьютеру был задан IP-адрес и маска:
 PC0: 192.168.1.2/24
@@ -51,7 +51,7 @@ PC6: 192.168.1.8/24
 
   Результат пинга с PC6 на PC3 представлен на рисунке ниже:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%201-4.png" width = "600" height = "500" alt = "ping-from-pc6-to-pc3"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%201-4.png" width = "700" height = "400" alt = "ping-from-pc6-to-pc3"/>
 
   Оба соединения были установлены успешно.
 
@@ -60,7 +60,7 @@ PC6: 192.168.1.8/24
 
   Во второй части  работы была собрана новая схема соединения, состоящая из маршрутизатора, коммутатора и двух IP-телефонов:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%202-1.png" width = "600" height = "500" alt = "scheme-part-2"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%202-1.png" width = "500" height = "300" alt = "scheme-part-2"/>
 
   Имя маршрутизатора Cisco 2811 было изменено на CMERoute, синтаксис ввода слов от DNS серверов был отключен. После этого на маршрутизаторе был настроен интерфейс fa0/0, ему был присвоен адрес 192.168.10.1 с маской 255.255.255.0:
 
