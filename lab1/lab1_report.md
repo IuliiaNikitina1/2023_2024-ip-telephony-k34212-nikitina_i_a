@@ -43,11 +43,11 @@ PC6: 192.168.1.8/24
 
   Задание IP-адреса и маски компьютеру PC0 представлено на рисунке ниже:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%201-2.png" width = "600" height = "500" alt = "ip-address-for-pc0"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%201-2.png" width = "700" height = "400" alt = "ip-address-for-pc0"/>
 
   Вслед за добавлением IP-адресов соединение в сети было проверено на практике. Для этого между компьютерами были осуществлены пинги. Результат пинга с PC0 на PC2 представлен на рисунке ниже:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%201-3.png" width = "600" height = "500" alt = "ping-from-pc0-to-pc2"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%201-3.png" width = "700" height = "400" alt = "ping-from-pc0-to-pc2"/>
 
   Результат пинга с PC6 на PC3 представлен на рисунке ниже:
 
