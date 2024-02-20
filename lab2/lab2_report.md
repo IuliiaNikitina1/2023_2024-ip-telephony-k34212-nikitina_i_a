@@ -150,7 +150,7 @@ interface FastEthernet0/6
 
 Во второй части лабораторной работы была собрана схема, состоящая из одного роутера, одного коммутатора, трех IP телефонов и трех персональных компьютеров. Полученная схема представлена на рисунке ниже:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab2/images/ip%201-2.png" width = "500" height = "300" alt = "scheme-part-2"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab2/images/ip%202-1.png.png" width = "500" height = "300" alt = "scheme-part-2"/>
 
 После составления схемы на коммутаторе был произведен ряд настроек: были созданы вланы 10 (name: Data), 20 (name: Voice) и 99 (name: Management), влану 99 был присвоен IP-адрес и маска, порт fa0/4 был переведен в режим trunk, а порты fa0/1-3 в режим access. 
 
