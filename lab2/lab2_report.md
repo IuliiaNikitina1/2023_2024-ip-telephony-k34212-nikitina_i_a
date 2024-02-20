@@ -148,8 +148,105 @@ interface FastEthernet0/6
 
   **Часть 2.**
 
-  ...
+Во второй части лабораторной работы была собрана схема, состоящая из одного роутера, одного коммутатора, трех IP телефонов и трех персональных компьютеров. Полученная схема представлена на рисунке ниже:
 
+...
+
+После составления схемы на коммутаторе был произведен ряд настроек: были созданы вланы 10 (name: Data), 20 (name: Voice) и 99 (name: Management), влану 99 был присвоен IP-адрес и маска, порт fa0/4 был переведен в режим trunk, а порты fa0/1-3 в режим access. 
+
+```
+!
+interface FastEthernet0/1
+ switchport access vlan 20
+ switchport mode access
+!
+interface FastEthernet0/2
+ switchport access vlan 20
+ switchport mode access
+!
+interface FastEthernet0/3
+ switchport access vlan 20
+ switchport mode access
+!
+interface FastEthernet0/4
+ switchport trunk native vlan 99
+ switchport mode trunk
+!
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan99
+ ip address 192.168.99.10 255.255.255.0
+!
+ip default-gateway 192.168.99.1
+!
+!
+```
+
+На коммутаторе для вланов 10, 20 и 99 были созданы логические подынтерфейсы fa0/0.10, fa0/0.20 и fa0/0.99 соответственно. Из DHCP пула были исключены адреса интерфейса маршрутизатора и DNS-сервера. Вслед за этим, для передачи голоса и данных на роутере были настроены DHCP-сервера. 
+В конце на устройстве также была произведена настройка телефонного сервиса и заданы номера для всех IP-телефонов в сети: 101, 102 и 103.
+
+```
+!
+ip dhcp excluded-address 192.168.10.1 192.168.10.9
+ip dhcp excluded-address 192.168.20.1 192.168.20.9
+!
+ip dhcp pool Data
+ network 192.168.10.0 255.255.255.0
+ default-router 192.168.10.1
+ip dhcp pool Voice
+ network 192.168.20.0 255.255.255.0
+ default-router 192.168.20.1
+ option 150 ip 192.168.20.1
+!
+!
+!
+interface FastEthernet0/0
+ no ip address
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/0.10
+ encapsulation dot1Q 10
+ ip address 192.168.10.1 255.255.255.0
+!
+interface FastEthernet0/0.20
+ encapsulation dot1Q 20
+ ip address 192.168.20.1 255.255.255.0
+!
+interface FastEthernet0/0.99
+ encapsulation dot1Q 99 native
+ ip address 192.168.99.1 255.255.255.0
+!
+interface FastEthernet0/1
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+telephony-service
+ max-ephones 3
+ max-dn 3
+ ip source-address 192.168.20.1 port 2000
+!
+ephone-dn 1
+ number 101
+!
+ephone-dn 2
+ number 102
+!
+ephone-dn 3
+ number 103
+!
+```
+
+///
 
 #### 3. Вывод:
 
