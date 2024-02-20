@@ -112,8 +112,9 @@ end
 
 ```
 !
+!
 interface FastEthernet0/1
- switchport mode access
+ switchport mode trunk
  switchport nonegotiate
  switchport voice vlan 1
 !
@@ -136,6 +137,10 @@ interface FastEthernet0/5
  switchport mode access
  switchport nonegotiate
  switchport voice vlan 1
+!
+interface FastEthernet0/6
+ switchport mode access
+ switchport nonegotiate
 !
 ```
 
