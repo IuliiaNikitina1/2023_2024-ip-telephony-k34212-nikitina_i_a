@@ -91,6 +91,24 @@ ephone-dn 4
 ephone-dn 5
  number 54005
 !
+ephone 1
+ device-security-mode none
+ mac-address 00D0.FFA0.8EDE
+ type 7960
+ button 1:1
+!
+ephone 2
+ device-security-mode none
+ mac-address 0060.5C85.AE04
+ type 7960
+ button 1:2
+!
+ephone 3
+ device-security-mode none
+ mac-address 00E0.F783.2720
+ type 7960
+ button 1:3
+!
 line con 0
  password cisco
  logging synchronous
@@ -103,18 +121,14 @@ line vty 0 4
  logging synchronous
  login
 !
-!
-!
-end
 ```
 
 Вслед за настройкой маршрутизатора была произведена настройка коммутатора Switch A. Его порты fa0/1-5 были переведены в режим access.
 
 ```
 !
-!
 interface FastEthernet0/1
- switchport mode trunk
+ switchport mode access
  switchport nonegotiate
  switchport voice vlan 1
 !
@@ -138,13 +152,19 @@ interface FastEthernet0/5
  switchport nonegotiate
  switchport voice vlan 1
 !
-interface FastEthernet0/6
- switchport mode access
- switchport nonegotiate
-!
 ```
 
-///
+В результате произведенных настроек IP-телефоны получили следующие IP-адреса и номера телефонов:
+
+IP Phone 0: 192.168.10.4/24 ; 54002
+IP Phone 1: 192.168.10.6/24 ; 54001
+IP Phone 2: 192.168.10.7/24 ; 54003
+
+Для проверки исправности работы сети был произведен звонок с номера 54002 (IP Phone 0) на номер 54003 (IP Phone 2). На приведенных ниже рисунках видно, что звонок был осуществлен и получен успешно:
+
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab2/images/ip%201-2.png" width = "500" height = "300" alt = "call-1"/>
+
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab2/images/ip%201-3.png" width = "500" height = "300" alt = "call-2"/>
 
   **Часть 2.**
 
