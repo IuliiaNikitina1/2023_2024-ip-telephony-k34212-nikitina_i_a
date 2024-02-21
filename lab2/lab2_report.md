@@ -162,9 +162,9 @@ IP Phone 2: 192.168.10.7/24 ; 54003
 
 Для проверки исправности работы сети был произведен звонок с номера 54002 (IP Phone 0) на номер 54003 (IP Phone 2). На приведенных ниже рисунках видно, что звонок был осуществлен и получен успешно:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab2/images/ip%201-2.png" width = "500" height = "300" alt = "call-1"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab2/images/IP%201-2.png" width = "500" height = "300" alt = "call-1"/>
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab2/images/ip%201-3.png" width = "500" height = "300" alt = "call-2"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab2/images/IP%201-3.png" width = "500" height = "300" alt = "call-2"/>
 
   **Часть 2.**
 
