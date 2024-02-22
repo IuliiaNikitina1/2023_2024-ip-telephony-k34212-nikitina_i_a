@@ -60,7 +60,7 @@ PC6: 192.168.1.8/24
 
   Во второй части работы была собрана другая схема соединения, состоящая из маршрутизатора, коммутатора и двух IP-телефонов:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/ip%202-1.png" width = "500" height = "300" alt = "scheme-part-2"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/lab1-2.drawio.png" width = "500" height = "300" alt = "scheme-part-2"/>
 
   Имя маршрутизатора Cisco 2811 было изменено на CMERoute, синтаксис ввода слов от DNS серверов был отключен. После этого на маршрутизаторе был настроен интерфейс fa0/0, который получил адрес 192.168.10.1 с маской 255.255.255.0:
 
