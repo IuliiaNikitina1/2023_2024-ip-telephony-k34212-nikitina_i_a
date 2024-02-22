@@ -266,8 +266,21 @@ ephone-dn 3
 !
 ```
 
-///
+После включения динамической IP-адресации компьютерам были присвоены IP-адреса. Для проверки связи между ними была использована утилита ping. Из рисунков ниже видно, что соединение было успешно установлено:
+
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab2/images/IP%202-3.png" width = "500" height = "300" alt = "call-2"/>
+
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab2/images/IP%202-4.png" width = "500" height = "300" alt = "call-2"/>
+
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab2/images/IP%202-2.png" width = "500" height = "300" alt = "call-2"/>
+
+Следом за этим была произведена также проверка звонков между IP-телефонами. Связь между номерами 102 и 103 была установлена:
+
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab2/images/IP%202-5.png" width = "500" height = "300" alt = "call-2"/>
+
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab2/images/IP%202-6.png" width = "500" height = "300" alt = "call-2"/>
+
 
 #### 3. Вывод:
 
-  ...
+В ходе лабораторной работы были выполнены все поставленные задачи. Были собраны две схемы связи, в них были произведены настройки, обеспечивающие соединение между устройствами.
