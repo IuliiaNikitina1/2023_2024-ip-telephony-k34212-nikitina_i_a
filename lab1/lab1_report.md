@@ -30,7 +30,7 @@ Date of finished:
   В первой части лабораторной работы в среде Cisco Packet Tracer был создан новый проект и собрана схема соединения, состоящая из 7 персональных компьютеров и четырех коммутаторов.
   Полученная схема представлена на рисунке ниже:
 
-<img src = "" width = "500" height = "300" alt = "scheme-part-1"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab1/images/lab1-1.drawio.png" width = "500" height = "300" alt = "scheme-part-1"/>
 
   Каждому компьютеру был задан IP-адрес и маска:
 PC0: 192.168.1.2/24
