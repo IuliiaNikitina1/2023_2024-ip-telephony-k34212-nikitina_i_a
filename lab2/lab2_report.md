@@ -14,7 +14,7 @@ Lab: Lab2
 
 Date of create: 16.02.2024
 
-Date of finished: 
+Date of finished: 27.02.2024
 
 
 ## Отчет по лабораторной работе №2:
