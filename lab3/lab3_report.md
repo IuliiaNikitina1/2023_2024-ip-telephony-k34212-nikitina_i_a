@@ -25,6 +25,8 @@ Date of finished:
 
 #### 2. Ход работы:
 
+##### 2.1. Установка и настройка Asterisk 
+
 В начале выполнения работы программный комплекс Asterisk был установлен через терминал.
 
 <img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/1.png" width = "900" height = "150" alt = "install-asterisk"/>
@@ -71,6 +73,8 @@ Asterisk был перезагружен. После перезагрузки в
 
 <img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/3.png" width = "600" height = "300" alt = "install-asterisk"/>
 
+##### 2.2. Zoiper5. Аккаунт 1001 
+
 После установки soft-телефона Zoiper5 на нем был совершен вход в аккаунт 1001:
 
 Логин: 1001
@@ -83,9 +87,13 @@ Asterisk был перезагружен. После перезагрузки в
 
 <img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/4.png" width = "900" height = "250" alt = "install-asterisk"/>
 
+##### 2.3. MicroSIP. Аккаунт 1002
+
 Следующим шагом была произведена установка MicroSIP, после чего в нем был создан новый аккаунт со следующими данными:
 
 <img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/5.png" width = "300" height = "400" alt = "install-asterisk"/>
+
+##### 2.4. Проверка связи
 
 После добавления аккаунта был совершен звонок с номера 1002 на номер 1001:
 
