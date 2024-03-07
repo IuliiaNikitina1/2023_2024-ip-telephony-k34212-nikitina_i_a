@@ -27,7 +27,7 @@ Date of finished:
 
 В начале выполнения работы программный комплекс Asterisk был установлен через терминал.
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/1.png" width = "800" height = "300" alt = "install-asterisk"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/1.png" width = "900" height = "200" alt = "install-asterisk"/>
 
 Затем в файлы /etc/asterisk/sip.conf и /etc/asterisk/extensions.conf были внесены изменения, необходимые для создания двух sip-аккаунтов. 
 В /etc/asterisk/sip.conf было добавлено следующее:
@@ -65,11 +65,11 @@ exten => _XXXX,1,Dial(SIP/${EXTEN})
 
 Asterisk был перезагружен. После перезагрузки все внесенные изменения были успешно применены:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/2.png" width = "500" height = "300" alt = "install-asterisk"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/2.png" width = "800" height = "300" alt = "install-asterisk"/>
 
 С помощью команды ```sudo asterisk -rv``` удалось проверить наличие добавленных аккаунтов. Действительно, аккаунты 1001 и 1002 были успешно созданы и выводятся в списке доступных: 
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/3.png" width = "800" height = "300" alt = "install-asterisk"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/3.png" width = "600" height = "300" alt = "install-asterisk"/>
 
 После установки soft-телефона Zoiper5 на нем был совершен вход в аккаунт 1001:
 
@@ -81,7 +81,7 @@ Asterisk был перезагружен. После перезагрузки в
 
 Для того, чтобы проверить назначение порта аккаунту 1001 был перезапущен Asterisk. Из рисунка видно, что адрес 127.0.0.1 появился в перечне аккаунтов:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/4.png" width = "700" height = "300" alt = "install-asterisk"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/4.png" width = "800" height = "300" alt = "install-asterisk"/>
 
 Следующим шагом была произведена установка MicroSIP, после чего в нем был создан новый аккаунт со следующими данными:
 
