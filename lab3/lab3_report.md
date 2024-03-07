@@ -65,7 +65,7 @@ exten => _XXXX,1,Dial(SIP/${EXTEN})
 
 Asterisk был перезагружен. После перезагрузки все внесенные изменения были успешно применены:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/2.png" width = "800" height = "300" alt = "install-asterisk"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/2.png" width = "800" height = "280" alt = "install-asterisk"/>
 
 С помощью команды ```sudo asterisk -rv``` удалось проверить наличие добавленных аккаунтов. Действительно, аккаунты 1001 и 1002 были успешно созданы и выводятся в списке доступных: 
 
@@ -85,7 +85,7 @@ Asterisk был перезагружен. После перезагрузки в
 
 Следующим шагом была произведена установка MicroSIP, после чего в нем был создан новый аккаунт со следующими данными:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/5.png" width = "250" height = "400" alt = "install-asterisk"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/5.png" width = "300" height = "400" alt = "install-asterisk"/>
 
 После добавления аккаунта был совершен звонок с номера 1002 на номер 1001:
 
