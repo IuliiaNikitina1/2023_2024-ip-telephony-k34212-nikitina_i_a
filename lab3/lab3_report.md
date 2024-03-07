@@ -27,7 +27,7 @@ Date of finished:
 
 В начале выполнения работы программный комплекс Asterisk был установлен через терминал.
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/1.png" width = "500" height = "300" alt = "install-asterisk"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/1.png" width = "700" height = "300" alt = "install-asterisk"/>
 
 Затем в файлы /etc/asterisk/sip.conf и /etc/asterisk/extensions.conf были внесены изменения, необходимые для создания двух sip-аккаунтов. 
 В /etc/asterisk/sip.conf было добавлено следующее:
@@ -74,24 +74,26 @@ Asterisk был перезагружен. После перезагрузки в
 После установки soft-телефона Zoiper5 на нем был совершен вход в аккаунт 1001:
 
 Логин: 1001
+
 Пароль: 111
+
 Адрес сервера: 127.0.0.1 
 
 Для того, чтобы проверить назначение порта аккаунту 1001 был перезапущен Asterisk. Из рисунка видно, что адрес 127.0.0.1 появился в перечне аккаунтов:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/4.png" width = "500" height = "300" alt = "install-asterisk"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/4.png" width = "700" height = "300" alt = "install-asterisk"/>
 
 Следующим шагом была произведена установка MicroSIP, после чего в нем был создан новый аккаунт со следующими данными:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/5.png" width = "500" height = "300" alt = "install-asterisk"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/5.png" width = "700" height = "300" alt = "install-asterisk"/>
 
 После добавления аккаунта был совершен звонок с номера 1002 на номер 1001:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/6.png" width = "500" height = "300" alt = "install-asterisk"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/6.png" width = "200" height = "400" alt = "install-asterisk"/>
 
 Звонок был успешно получен:
 
-<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/7.png" width = "500" height = "300" alt = "install-asterisk"/>
+<img src = "https://github.com/IuliiaNikitina1/2023_2024-ip-telephony-k34212-nikitina_i_a/blob/main/lab3/images/7.png" width = "700" height = "300" alt = "install-asterisk"/>
 
 
 #### 3. Вывод:
