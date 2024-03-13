@@ -14,7 +14,7 @@ Lab: Lab3
 
 Date of create: 29.02.2024
 
-Date of finished: 
+Date of finished: 13.03.2024
 
 
 ## Отчет по лабораторной работе №3:
